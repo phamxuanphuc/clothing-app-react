@@ -1,0 +1,43 @@
+.menu-item {
+  position: relative;
+  overflow: hidden;
+  min-width: 30%;
+  height: 300px;
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 0 8px 15px;
+  text-align: center;
+  cursor: pointer;
+  .content {
+    border: 1px solid black;
+    padding: 5px 25px;
+    position: absolute;
+    background-color: white;
+    opacity: 0.8;
+    .title{
+      margin: 10px 0 3px 0;
+      text-transform: uppercase;
+    }
+    .subtitle{
+      display: block;
+      padding: 3px 0 10px 0;
+      font-size: 18px;
+    }
+  }
+  &.xl {
+    height: 400px;
+  }
+  .wrap {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  &:hover .wrap{
+    transform: scale(1.1);
+    transition: transform 4s cubic-bezier(0.25,0.45,0.45,0.95);
+  }
+}
