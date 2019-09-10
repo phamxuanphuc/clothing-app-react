@@ -6,33 +6,33 @@ class Directory extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      topics: [
+      sections: [
         {
-          id: 1,
-          title: "React Js",
-          imgUrL: "https://i.udemycdn.com/course/240x135/1362070_b9a1_2.jpg"
+          title: 'hats',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          id: 1
         },
         {
-          id: 2,
-          title: "React Native",
-          imgUrL: "https://i.udemycdn.com/course/240x135/1436092_2024_3.jpg"
+          title: 'jackets',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          id: 2
         },
         {
-          id: 3,
-          title: "Angular 2+",
-          imgUrL: "https://i.udemycdn.com/course/240x135/1512962_9f57.jpg"
+          title: 'sneakers',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          id: 3
         },
         {
-          id: 4,
-          title: "Vue Js",
-          imgUrL: "https://i.udemycdn.com/course/240x135/995016_ebf4.jpg",
-          size:'xl'
+          title: 'womens',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          size: 'large',
+          id: 4
         },
         {
-          id: 5,
-          title: "Golang",
-          imgUrL: "https://i.udemycdn.com/course/240x135/1556312_18c2_8.jpg",
-          size:'xl'
+          title: 'mens',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          size: 'large',
+          id: 5
         }
       ]
     };
@@ -40,8 +40,8 @@ class Directory extends Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.topics.map(({ id, title,imgUrL,size }) => (
-          <MenuItem key={id} title={title} imgUrL={imgUrL} size={size} />
+        {this.state.sections.map(({ id, title,imageUrl,size }) => (
+          <MenuItem key={id} title={title} imgUrL={imageUrl} size={size} />
         ))}
       </div>
     );

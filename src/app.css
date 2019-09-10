@@ -2,3 +2,10 @@
 * {
     font-family: "Open Sans Condensed", sans-serif;
 }
+body{
+    padding: 20px 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
