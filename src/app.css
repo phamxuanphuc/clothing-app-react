@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=vietnamese");
 * {
-    font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    padding: 20px 60px;
+body {
+  padding: 20px 60px;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
 }
