@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870daa46-dca2-4937-ac1e-6833c539b53b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Unconfirmed 910429.crdownload" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form_input/FormInput.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form_input/FormInput.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign_up/SignUp.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign_up/SignUp.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign_in/SignIn.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign_in/SignIn.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign_in/SignIn.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign_in/SignIn.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/signIn_signUp_page/SignIn-SignUp.page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signIn_signUp_page/SignIn-SignUp.page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signIn_signUp_page/SignIn-SignUp.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signIn_signUp_page/SignIn-SignUp.style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1QcyY2J3mvSfPjO9vwkKZRmmSZB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,7 +49,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\noppi\Desktop\course-app\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +96,9 @@
       <updated>1568084222166</updated>
       <workItem from="1568084223613" duration="1552000" />
       <workItem from="1568085805033" duration="41876000" />
-      <workItem from="1568215872589" duration="2947000" />
+      <workItem from="1568215872589" duration="10079000" />
+      <workItem from="1568261420899" duration="5732000" />
+      <workItem from="1568268858319" duration="3369000" />
     </task>
     <servers />
   </component>

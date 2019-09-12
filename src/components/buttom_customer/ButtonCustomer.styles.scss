@@ -8,13 +8,14 @@
   background-color: black;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
+
   border: none;
   cursor: pointer;
   &:hover{
     background-color: white;
     color: black;
     border: 1.5px solid black;
+    font-weight: bold;
   }
   &.sign-in-google{
     background-color: blue;
