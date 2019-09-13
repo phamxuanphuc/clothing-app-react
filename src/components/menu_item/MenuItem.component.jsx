@@ -11,7 +11,6 @@ const MenuItem = ({ title, imgUrL, size }) => (
         <h1 className="title">{title}</h1>
         <span className="subtitle">REGISTER NOW</span>
       </div>
-
   </div>
 );
 export default MenuItem;
