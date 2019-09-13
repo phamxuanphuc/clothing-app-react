@@ -32,6 +32,12 @@ constructor(props){
     }catch (err) {
       console.log(err)
     }
+    this.setState({
+      displayName:'',
+      email:'',
+      password:'',
+      confirmPassword:''
+    })
   };
   handleChange = event => {
     this.setState({
