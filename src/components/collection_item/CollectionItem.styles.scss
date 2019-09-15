@@ -1,9 +1,11 @@
 .collection-item{
+  position: relative;
   width: 22%;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
+  cursor: pointer;
   .image{
     width: 100%;
     height: 95%;
@@ -20,5 +22,16 @@
     .price{
      font-weight: bold;
     }
+  }
+  .btn-atc{
+    position: absolute;
+    bottom: 15%;
+    opacity: 0;
+  }
+  &:hover .btn-atc{
+    opacity: 1;
+  }
+  &:hover .image{
+    opacity: 0.8;
   }
 }

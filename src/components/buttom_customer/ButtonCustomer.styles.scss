@@ -25,4 +25,14 @@
     color: blue;
     border: 1.5px solid blue;
   }
+  &.add-to-cart{
+    background-color: rgba(255,255,255,.8);
+    border: none;
+    color: black;
+    font-weight: bold;
+    &:hover{
+      background-color: rgba(0,0,0, .8);
+      color: white;
+    }
+  }
 }

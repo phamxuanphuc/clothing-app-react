@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870daa46-dca2-4937-ac1e-6833c539b53b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/shopping-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon_bag/IconBag.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon_bag/IconBag.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bag_items/BagItems.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bag_items/BagItems.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout_item/Checkout.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkout_item/Checkout.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/checkout_page/Checkout.page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/checkout_page/Checkout.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/bag/cart.selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/user/user.selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttom_customer/ButtonCustomer.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart_dropdown/CartDropDown.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection_item/CollectionItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection_item/CollectionItem.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection_item/CollectionItem.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection_item/CollectionItem.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu_item/MenuItem.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu_item/MenuItem.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icon_bag/IconBag.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icon_bag/IconBag.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview_collection/PreviewCollection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview_collection/PreviewCollection.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/bag/bag.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/bag/bag.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/bag/bag.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/bag/bag.types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +61,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\noppi\Desktop\course-app\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,7 +113,7 @@
       <workItem from="1568261420899" duration="5732000" />
       <workItem from="1568268858319" duration="5488000" />
       <workItem from="1568295495240" duration="5000" />
-      <workItem from="1568308432247" duration="12127000" />
+      <workItem from="1568308432247" duration="39991000" />
     </task>
     <servers />
   </component>

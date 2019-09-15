@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './directory.styles.scss'
 import MenuItem from "../menu_item/MenuItem.component";
+import {addItemsBag} from "../../redux/reducers/bag/bag.action";
 
 class Directory extends Component {
   constructor(props) {
@@ -40,8 +41,8 @@ class Directory extends Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.sections.map(({ id, title,imageUrl,size }) => (
-          <MenuItem key={id} title={title} imgUrL={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...otherProps }) => (
+          <MenuItem key={id}  {...otherProps} />
         ))}
       </div>
     );

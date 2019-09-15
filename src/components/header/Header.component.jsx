@@ -7,7 +7,9 @@ import {connect} from "react-redux";
 //Component
 import IconBag from "../icon_bag/IconBag.component";
 import CartDropDown from "../cart_dropdown/CartDropDown.component";
-
+//Selector
+import {selectBagHidden} from "../../redux/reducers/bag/cart.selector";
+import {selectCurrentUser} from "../../redux/reducers/user/user.selector";
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
@@ -35,11 +37,10 @@ const Header = ({ currentUser, hidden }) => (
     </div>
   </div>
 );
-const mapStateToProps=({users, bag})=>(
+const mapStateToProps= state =>(
   {
-    currentUser: users.currentUser,
-    hidden: bag.hidden
-
+    currentUser: selectCurrentUser(state),
+    hidden: selectBagHidden(state)
   }
 );
 export default connect(mapStateToProps)(Header);
